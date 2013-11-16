@@ -67,13 +67,20 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-  border-bottom: solid 24px black;
+  border-bottom: solid 24px transparent;
+    background: -moz-linear-gradient(black, white); /* FF 3.6+ */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #ffffff)); /* Safari 4+, Chrome 2+ */  
+    background: -webkit-linear-gradient(black, white); /* Safari 5.1+, Chrome 10+ */  
+    background: -o-linear-gradient(black, white); /* Opera 11.10 */  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff'); /* IE6 & IE7 */  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff')"; /* IE8+ */  
+    background: linear-gradient(black, white); /* the standard */  
 }
 
 header h1 {
   letter-spacing: -1px;
   font-size: 72px;
-  color: black;
+  color: white;
   line-height: 1;
   margin-bottom: 0.2em;
   width: 540px;
