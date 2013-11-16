@@ -68,13 +68,13 @@ header {
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
-  border-bottom: solid 1px #275da1;
+  border-bottom: solid 24px black;
 }
 
 header h1 {
   letter-spacing: -1px;
   font-size: 72px;
-  color: #fff;
+  color: black;
   line-height: 1;
   margin-bottom: 0.2em;
   width: 540px;
@@ -96,7 +96,7 @@ header h2 {
 }
 
 #content-wrapper {
-  border-top: solid 1px #fff;
+  border-top: solid 10px #ed1e24;
   padding-top: 30px;
 }
 
