@@ -84,8 +84,8 @@ header .dot{
 }
 
 section.about-us{
-	background:#cccccc;
-	margin:20px 0px;
+    background: #3b3a36;
+	padding:20px 10px;
 }
 
 #content-wrapper {
