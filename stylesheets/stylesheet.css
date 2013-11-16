@@ -85,7 +85,8 @@ header .dot{
 
 section.about-us{
     background: #3b3a36;
-	padding:20px 10px;
+color: white;
+padding: 20px 100px;
 }
 
 #content-wrapper {
