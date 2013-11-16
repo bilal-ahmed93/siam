@@ -88,6 +88,10 @@ header span {
   float:right;
 }
 
+header .dot{
+  color: red;
+}
+
 .inner {
   position: relative;
   padding: 0px 20px;
